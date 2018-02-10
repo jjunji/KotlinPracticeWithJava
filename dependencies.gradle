@@ -1,0 +1,32 @@
+ext {
+    // Build SDK versions
+    buildToolsVersion = '26.0.2'
+    minSdkVersion = 18
+    compileSdkVersion = 26
+    targetSdkVersion = 26
+
+    supportLibVersion = '27.0.2'
+    rxandroid_version = '2.0.1'
+    realm_version = '4.2.0'
+    dagger_version = '2.11'
+    kotlin_version = '1.2.21'
+
+    recycelrView =
+            "com.android.support:recyclerview-v7:$supportLibVersion"
+    appcompatV7 =
+            "com.android.support:appcompat-v7:$supportLibVersion"
+    design =
+            "com.android.support:design:$supportLibVersion"
+    cardView =
+            "com.android.support:cardview-v7:$supportLibVersion"
+    rxAndroid =
+            "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+    dagger =
+            "com.google.dagger:dagger:$dagger_version"
+    daggerCompiler =
+            "com.google.dagger:dagger-compiler:$dagger_version"
+    kotlin =
+            "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+
+}
